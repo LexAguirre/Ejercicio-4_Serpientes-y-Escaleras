@@ -30,4 +30,4 @@ En los 2 casos se trata de series infinitas, por lo que ustedes deberían poner 
 
 Se puede usar por ahora un repositorio común donde solo suban el archivo con el código de las series y su correspondiente llamada, no deben imprimir los valores parciales, solo el resultado final.
 
-![Ejemplo](SyE.PNG)
+![Ejemplo](SyE.png)
