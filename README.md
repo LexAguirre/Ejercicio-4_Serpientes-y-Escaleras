@@ -1,6 +1,6 @@
 ![Logo](img/ucol-logo.jpg)
 
-# Ejercicio 3: Ciclos
+# Ejercicio 4: Serpientes y Escaleras
 
 > Primera Parcial
 
@@ -13,21 +13,16 @@
 
 ## OBJETIVO
 
-Resolver las funciones necesarias para implementar las series que ayuden a aproximar los valores de e
+Simular la ejecución del juego de serpientes y escaleras en un tablero de 100 casillas, con dos jugadores
+
+> ENTREGA: VIERNES 10 DE SEPTIEMBRE DEL 2021
 
 ![Ejemplo](img/SyE.png)
 
-> ENTREGA: LUNES 30 DE AGOSTO DEL 2021
-
 ## EXPLICACIÓN DEL PROCESO
 
-Resolver las funciones necesarias para implementar las series que ayuden a aproximar los valores de e y la que viene abajo..
-Estos ejercicios se pueden resolver como funciones recibiendo los parámetros necesarios.
-Anexo las series de e en imagen.
-Además resolver la siguiente serie infinita
+Simular la ejecución del juego de serpientes y escaleras en un tablero de 100 casillas, con dos jugadores, distribuir a su consideración entre 8 y 10 serpientes y entre 8 y 10 escaleras dentro del tablero.
 
-> S= 4 + (4/3) - (4/5) + (4/7) - (4/9) + (4/11) - (4/13) + (4/15) - (4/17) .....
+Considerar el modo de juego simple que es donde un jugador con llegar o pasar de 100 gana (no deberá regresar las casillas extras al 100)
 
-En los 2 casos se trata de series infinitas, por lo que ustedes deberían poner un limite en cada una de ellas
-
-Se puede usar por ahora un repositorio común donde solo suban el archivo con el código de las series y su correspondiente llamada, no deben imprimir los valores parciales, solo el resultado final.
+Utilizar clases para los elementos que se requieren para el juego.
