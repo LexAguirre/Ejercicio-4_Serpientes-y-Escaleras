@@ -15,6 +15,8 @@
 
 Resolver las funciones necesarias para implementar las series que ayuden a aproximar los valores de e
 
+![Ejemplo](img/SyE.png)
+
 > ENTREGA: LUNES 30 DE AGOSTO DEL 2021
 
 ## EXPLICACIÓN DEL PROCESO
@@ -29,5 +31,3 @@ Además resolver la siguiente serie infinita
 En los 2 casos se trata de series infinitas, por lo que ustedes deberían poner un limite en cada una de ellas
 
 Se puede usar por ahora un repositorio común donde solo suban el archivo con el código de las series y su correspondiente llamada, no deben imprimir los valores parciales, solo el resultado final.
-
-![Ejemplo](SyE.png)
