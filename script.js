@@ -20,16 +20,12 @@ export default class SyE{
             
             i = i + 1;
             console.log(`${i}° Ronda`)
-            let dado1 = this.dado();
-            let dado2 = this.dado();
 
-            P1.set_Position(dado1);
-            console.log(dado1)
+            P1.set_Position(this.dado());
             this.snake("one");
             this.ladder("one");
             console.log(P1.get_Position());
-            P2.set_Position(dado2);
-            console.log(dado2)
+            P2.set_Position(this.dado());
             this.snake("two");
             this.ladder("two");
             console.log(P2.get_Position());
