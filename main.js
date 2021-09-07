@@ -2,7 +2,7 @@
 
 import SyE from "./script.js";
 
-let serpYEscaleras = new SyE(13, 600);
-//console.log(serpYEscaleras....());
+let serpYEscaleras = new SyE();
+console.log(serpYEscaleras.tablero());
 //console.log(ciclo.ecuacionE());
 
