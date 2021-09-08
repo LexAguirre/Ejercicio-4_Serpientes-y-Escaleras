@@ -7,12 +7,16 @@ let P2 = new Player("ALEX");
 
 export default class SyE{
     
+    constructor(){
+        this.tablero = [0, 1, 2, 52, 4, 5, 6, 90, 8, 9, 10, 11, 59, 13, 20, 15, 16, 17, 39, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 19, 41, 42, 43, 44, 45, 46, 80, 48, 49, 50, 51, 52, 53, 54, 7, 89, 57, 58, 59, 60, 61, 96, 63, 64, 65, 66, 21, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 43, 80, 81, 82, 50, 84, 85, 86, 87, 88, 89, 90, 91, 64, 93, 94, 95, 96, 72, 98, 86, 100, 100, 100, 100, 100, 100]
+    }
+
     dado(){
         let dado = Math.ceil(Math.random() * 6);
         return dado;
     }
 
-    tablero(){
+    boardGame(){
         
         let i = 0;
 
@@ -22,12 +26,14 @@ export default class SyE{
             console.log(`${i}° Ronda`)
 
             P1.set_Position(this.dado());
-            this.snake("one");
-            this.ladder("one");
+            P1.set_Position((this.tablero[P1.get_Position()])-P1.get_Position());
+            //this.snake("one");
+            //this.ladder("one");
             console.log(P1.get_Position());
             P2.set_Position(this.dado());
-            this.snake("two");
-            this.ladder("two");
+            P2.set_Position((this.tablero[P2.get_Position()])-P2.get_Position());
+            //this.snake("two");
+            //this.ladder("two");
             console.log(P2.get_Position());
 
             if(P1.get_Position() >= 100){
@@ -38,7 +44,7 @@ export default class SyE{
         }
 
     }
-    
+    /*
     whichPlayer(player){
         let gamer;
         if(player === "one"){
@@ -111,7 +117,7 @@ export default class SyE{
                 break;
         }
     }
-
+    */
 }
 
 
